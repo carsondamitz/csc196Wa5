@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<title>Candy Land</title>
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Welcome to Candyland!</h1>
+		<label for="text">Enter Text Here:</label>
+		<fieldset name="text">
+			<textarea id="inputText-1" rows="4" cols="30"></textarea>
+		</fieldset>
+		<label for="btn">Fancify</label>
+		<fieldset name="controls-1">
+			<button name="btn1" onclick="bigger()">Bigger!</button>
+		</fieldset>
+		<fieldset name="controls-2">
+			<input type="radio" name="text1" value="fancy" id="radio-fancy" onchange="fancyShamncy()">
+			<label for="radio-fancy"> FancyShmancy</label>
+			<input type="radio" name="text1" value="boring" id="radio-boring" onchange="boringBetty()">
+			<label for="radio-boring"> BoringBetty</label>
+		</fieldset>
+		<fieldset name="controls-2">
+			<button name="btn2" onclick="moo()">Moo</button>
+		</fieldset>
+	</body>
+</html>
